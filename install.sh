@@ -19,7 +19,12 @@ cp "$SCRIPT_DIR/requirements.txt" "$SKILL_DIR/"
 
 # 3. 安装 Python 依赖
 echo "[3/4] 安装 Python 依赖..."
-pip install playwright playwright-stealth requests
+if python3 -c "import playwright, playwright_stealth, requests" 2>/dev/null; then
+    echo "  依赖已安装，跳过"
+else
+    pip install --break-system-packages playwright playwright-stealth requests 2>/dev/null \
+        || pip install playwright playwright-stealth requests
+fi
 
 # 4. 安装 Chromium 浏览器
 echo "[4/4] 安装 Chromium（首次安装需要几分钟）..."
