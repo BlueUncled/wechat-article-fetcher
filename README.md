@@ -20,6 +20,20 @@ WeChat articles (`mp.weixin.qq.com`) normally trigger a captcha (`wappoc_appmsgc
 
 ## Installation
 
+### One-click Install (as Claude Code Skill)
+
+```bash
+git clone https://github.com/BlueUncled/wechat-article-fetcher.git /tmp/wechat-article-fetcher
+cd /tmp/wechat-article-fetcher && bash install.sh
+```
+
+This will:
+- Copy the script to `~/.claude/skills/wechat-article-fetcher/`
+- Install Python dependencies (playwright, playwright-stealth, requests)
+- Install Chromium browser for headless browsing
+
+### Manual Install
+
 ```bash
 pip install -r requirements.txt
 playwright install-deps chromium
@@ -70,6 +84,20 @@ results = search_sogou("每日心语简报")
 for i, r in enumerate(results):
     print(f"[{i}] {r['title']}  ({r['source']})")
     print(f"    {r['summary']}")
+```
+
+### Claude Code Skill
+
+After running `install.sh`, you can use this as a Claude Code skill. Just say:
+
+```
+帮我抓取"每日心语简报"的公众号文章
+```
+
+Or trigger it directly:
+
+```
+/wechat-article-fetcher
 ```
 
 ## Output Format
