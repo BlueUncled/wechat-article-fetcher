@@ -1,6 +1,10 @@
 # wechat-article-fetcher
 
-🇬🇧 English | [🇨🇳 中文](README_zh.md)
+<div align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-4A90D9?style=for-the-badge" alt="English"></a>
+  &nbsp;
+  <a href="README_zh.md"><img src="https://img.shields.io/badge/🇨🇳_中文-DE4A4A?style=for-the-badge" alt="中文"></a>
+</div>
 
 Fetch WeChat (微信) public account articles as **plain text**, bypassing WeChat's browser-based captcha.
 
