@@ -1,10 +1,16 @@
 # wechat-article-fetcher
 
 <div align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-4A90D9?style=for-the-badge" alt="English"></a>
-  &nbsp;
-  <a href="README_zh.md"><img src="https://img.shields.io/badge/🇨🇳_中文-DE4A4A?style=for-the-badge" alt="中文"></a>
+  <a href="README.md">
+    <img src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@master/svg/gb.svg" width="28" alt="English" title="English" />
+  </a>
+  <span>&nbsp;&nbsp;</span>
+  <a href="README_zh.md">
+    <img src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@master/svg/cn.svg" width="28" alt="中文" title="中文" />
+  </a>
 </div>
+
+<br>
 
 Fetch WeChat (微信) public account articles as **plain text**, bypassing WeChat's browser-based captcha.
 

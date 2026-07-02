@@ -1,10 +1,16 @@
 # wechat-article-fetcher
 
 <div align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-4A90D9?style=for-the-badge" alt="English"></a>
-  &nbsp;
-  <a href="README_zh.md"><img src="https://img.shields.io/badge/🇨🇳_中文-DE4A4A?style=for-the-badge" alt="中文"></a>
+  <a href="README.md">
+    <img src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@master/svg/gb.svg" width="28" alt="English" title="English" />
+  </a>
+  <span>&nbsp;&nbsp;</span>
+  <a href="README_zh.md">
+    <img src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@master/svg/cn.svg" width="28" alt="中文" title="中文" />
+  </a>
 </div>
+
+<br>
 
 一键抓取微信公众号文章为**纯文本**，绕过微信浏览器验证码限制。
 
