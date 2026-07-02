@@ -1,5 +1,7 @@
 # wechat-article-fetcher
 
+[🇬🇧 English](README.md) | 🇨🇳 中文
+
 一键抓取微信公众号文章为**纯文本**，绕过微信浏览器验证码限制。
 
 ## 原理

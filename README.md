@@ -1,5 +1,7 @@
 # wechat-article-fetcher
 
+🇬🇧 English | [🇨🇳 中文](README_zh.md)
+
 Fetch WeChat (微信) public account articles as **plain text**, bypassing WeChat's browser-based captcha.
 
 ## How It Works
